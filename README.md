@@ -33,10 +33,9 @@ These aliases, when added to your `.bashrc` give you the following commands:
 * wsload: Set `$ROS_WORKSPACE` to the directory stored in `~/.curws` and source it's `setup.bash`
 
 Add the following to your bashrc:
-```
+```bash
 # Get workspace aliases
 source /opt/ros/groovy/etc/ros_companions/ws_aliases.bash
-
 # Load the last used workspace when creating a new shell
 wsload
 ```
