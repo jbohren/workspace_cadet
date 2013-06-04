@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+touch `rospack find $1`/CATKIN_IGNORE
