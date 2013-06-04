@@ -91,8 +91,11 @@ catkin_package(
  install(PROGRAMS
    scripts/ignorepkg
    scripts/noticepkg
-   scripts/ws_aliases
    DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
+ )
+ install(PROGRAMS
+   scripts/ws_aliases.bash
+   DESTINATION ${CATKIN_PACKAGE_ETC_DESTINATION}
  )
 
 ## Mark executables and/or libraries for installation
