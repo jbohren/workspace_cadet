@@ -1,5 +1,5 @@
-ROS Companions
-==============
+Workspace Cadet
+===============
 
 Scripts
 -------
@@ -36,7 +36,7 @@ These aliases, when added to your `.bashrc` give you the following commands:
 Add the following to your bashrc:
 ```bash
 # Get workspace aliases
-source /opt/ros/groovy/etc/ros_companions/ws_aliases.bash
+source /opt/ros/groovy/etc/workspace_cadet/ws_aliases.bash
 # Load the last used workspace when creating a new shell
 wsload
 ```
