@@ -28,12 +28,12 @@ Aliases
 
 These aliases, when added to your `.bashrc` give you the following commands:
 
-* wspwd: Set `$ROS_WORKSPACE` to the current directory.
-* wssave: Save the current directory to `~/.curws`
-* wsload: Set `$ROS_WORKSPACE` to the directory stored in `~/.curws` and source it's `setup.bash`
-* wscd: `cd` to the `src` directory of `$ROS_WORKSPACE`
+* _wspwd_: Set `$ROS_WORKSPACE` to the current directory.
+* _wssave_: Save the current directory to `~/.curws`
+* _wsload_: Set `$ROS_WORKSPACE` to the directory stored in `~/.curws` and source it's `setup.bash`
+* _wscd_: `cd` to the `src` directory of `$ROS_WORKSPACE`
 
-Add the following to your bashrc:
+Add the following to your bashrc for superpowers:
 ```bash
 # Get workspace aliases
 source /opt/ros/groovy/etc/workspace_cadet/ws_aliases.bash
