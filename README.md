@@ -31,6 +31,7 @@ These aliases, when added to your `.bashrc` give you the following commands:
 * wspwd: Set `$ROS_WORKSPACE` to the current directory.
 * wssave: Save the current directory to `~/.curws`
 * wsload: Set `$ROS_WORKSPACE` to the directory stored in `~/.curws` and source it's `setup.bash`
+* wscd: `cd` to the `src` directory of `$ROS_WORKSPACE`
 
 Add the following to your bashrc:
 ```bash
